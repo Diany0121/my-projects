@@ -8,8 +8,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? `/${repoName}` : "",
-  assetPrefix: isProd ? `/${repoName}/` : "",
+  // basePath: isProd ? `/${repoName}` : "",
+  // assetPrefix: isProd ? `/${repoName}/` : "",
+  // assetPrefix: '/my-portfolio/',
 };
 
 export default nextConfig;
